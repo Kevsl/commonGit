@@ -14,6 +14,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/datagrid-users" element={<DatagridUsers />} />
+        <Route path="/movies" element={<Movies />} />
       </Routes>
       <ul className="flex mx-auto items-center w-1-2 bg-dark-blue justify-around text-white rounded-md">
         <Link to="">
