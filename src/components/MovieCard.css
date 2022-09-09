@@ -1,0 +1,33 @@
+.single-movie-card{
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.single-movie-card .title{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: red;
+    margin: 0;
+    bottom: 21px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.single-movie-card .year {
+    margin: 0;
+    position: absolute;
+    background-color: black;
+    bottom: 0px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.single-movie-card img{
+    max-width: 300px;
+    max-height: 397px;
+}

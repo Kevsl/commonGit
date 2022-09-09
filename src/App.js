@@ -1,8 +1,9 @@
-import { Routes, Route, Link } from 'react-router-dom'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Flags from './views/Flags'
+import Movies from './views/Movies'
+import { Routes, Route, Link } from 'react-router-dom'
 import DatagridUsers from './views/datagridUsers'
 import './App.css'
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/flags" element={<Flags />} />
         <Route path="/datagrid-users" element={<DatagridUsers />} />
+        <Route path="/movies" element={<Movies />} />
       </Routes>
     </div>
   )
