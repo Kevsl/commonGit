@@ -3,6 +3,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Flags from './views/Flags'
+import DatagridUsers from './views/datagridUsers'
 import './App.css'
 
 function App() {
@@ -19,12 +20,12 @@ function App() {
           <li className="text-white">Movies</li>
         </Link>
       </ul>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/flags" element={<Flags />} />
+        <Route path="/datagrid-users" element={<DatagridUsers />} />
       </Routes>
     </div>
   )
