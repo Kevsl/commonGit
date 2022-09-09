@@ -2,6 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
+import DatagridUsers from './views/datagridUsers'
 import './App.css'
 
 function App() {
