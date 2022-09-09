@@ -3,7 +3,6 @@ import './App.css';
 
 function App() {
 
-  // useless comment by R
   return (
     <div className="App">
       <header className="App-header">
