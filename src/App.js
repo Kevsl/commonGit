@@ -2,6 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
+import Flags from './views/Flags'
 import './App.css'
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <Link to="">
           <li className="text-white">Users</li>
         </Link>
-        <Link to="">
+        <Link to="/flags">
           <li className="text-white">Flags</li>
         </Link>
         <Link to="">
@@ -23,6 +24,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/flags" element={<Flags />} />
       </Routes>
     </div>
   )
