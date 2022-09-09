@@ -1,0 +1,44 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    text-align: center;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h3{
+    padding-left: 60px;
+}
+
+.search-form{
+    text-align: center;
+}
+
+.search-form input{
+    margin-right: 15px;
+    height: 30px;
+}
+
+.search-form button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: black;
+    color: red;
+    border: 1px solid black;
+}
+
+.search-form button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.all-search-result{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 40px;
+}
